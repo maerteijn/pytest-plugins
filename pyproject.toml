@@ -75,7 +75,7 @@ warn_unreachable = true
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "pytest_plugins.settings"
 testpaths = "tests/"
-addopts = "--reuse-db --ignore=tests/e2e"
+addopts = "--reuse-db --ignore=tests/test_5_pytest_playwright.py"
 env = [
     "CURRENT_USER = {USER}",
 ]

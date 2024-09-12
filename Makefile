@@ -24,7 +24,7 @@ test:
 
 test-e2e:
 	 playwright install firefox
-	 DJANGO_ALLOW_ASYNC_UNSAFE=1 pytest --headed tests/e2e/ --browser firefox --video on
+	 DJANGO_ALLOW_ASYNC_UNSAFE=1 pytest --headed tests/test_5_pytest_playwright.py --browser firefox
 
 format:
 	ruff check --select I --fix src/** tests/**
