@@ -1,0 +1,28 @@
+# Code
+.idea/
+.vscode/
+
+# Django
+src/pytest_plugins/public/
+src/pytest_plugins/static/pytest_plugins/
+src/pytest_plugins/settings/local.py
+*.mo
+
+# OSX
+.DS_Store
+
+# Python
+__pycache__/
+*.egg-info/
+*.pyc
+.coverage*
+
+# Project
+.env
+.envrc
+
+# DB
+db.sqlite3
+
+# Tests
+test-results/**
