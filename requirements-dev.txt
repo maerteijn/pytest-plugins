@@ -64,6 +64,7 @@ pytest==8.3.3
     #   pytest-mock
     #   pytest-playwright
     #   pytest-plugins (pyproject.toml)
+    #   pytest-repeat
 pytest-base-url==2.1.0
     # via pytest-playwright
 pytest-django==4.9.0
@@ -75,6 +76,8 @@ pytest-factoryboy==2.7.0
 pytest-mock==3.14.0
     # via pytest-plugins (pyproject.toml)
 pytest-playwright==0.5.2
+    # via pytest-plugins (pyproject.toml)
+pytest-repeat==0.9.3
     # via pytest-plugins (pyproject.toml)
 python-dateutil==2.9.0.post0
     # via faker
